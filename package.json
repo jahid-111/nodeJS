@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Jahid",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }
