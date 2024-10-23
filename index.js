@@ -16,7 +16,21 @@ myServer = http.createServer((req, res) => {
   fs.appendFile("log.txt", logReq, (error, data) => {
     switch (myUrl.pathname) {
       case "/":
-        res.end("hello Server homePage");
+        if (req.method === "GET") {
+          res.end("hello Server homePage");
+        } else if (req.method === "POST") {
+          //DB Query
+          res.end("Success POST");
+        } else if (req.method === "DELETE") {
+          //DB Query
+          res.end("Successfully DELETED");
+        } else if (req.method === "PATCH") {
+          //DB Query
+          res.end("Successfully PATCH");
+        } else if (req.method === "PUT") {
+          //DB Query
+          res.end("Successfully PUT");
+        }
         break;
       case "/about":
         res.end(`Hey It's me ${myUrl?.query?.name}.  I'm Learning NodeJs`);
