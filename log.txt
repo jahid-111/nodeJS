@@ -1,0 +1,6 @@
+=> user at 1729681388405 time,   requested :/ this route 
+=> user at 1729681388757 time,   requested :/favicon.ico this route 
+=> user at 1729681391891 time,   requested :/about this route 
+=> user at 1729681392674 time,   requested :/favicon.ico this route 
+=> user at 1729681424913 time,   requested :/aboutas this route 
+=> user at 1729681424956 time,   requested :/favicon.ico this route 
