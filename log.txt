@@ -1,7 +1,0 @@
-=> user at 1729688660759 time,   requested :/ this route 
-=> user at 1729688661109 time,   requested :/favicon.ico this route 
-=> user at 1729688667142 time,   requested :/ this route 
-=> user at 1729688678776 time,   requested :/ this route 
-=> user at 1729688686127 time,   requested :/ this route 
-=> user at 1729688689912 time,   requested :/ this route 
-=> user at 1729688692791 time,   requested :/ this route 
