@@ -1,3 +1,8 @@
-> **Express** Code Sample Funda
+##### RESTapi
 
-- delete in unnecessary require v-1.0.0
+<mark>GET</mark>
+<mark>POST</mark>
+<mark>PATCH</mark>
+<mark>DELETE</mark>
+
+> MockData Generate : [Website](https://www.mockaroo.com/)
