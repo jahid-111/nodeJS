@@ -6,9 +6,33 @@ const app = express();
 
 const port = 8000;
 
-//Middleware
+//---------------------------------------------------   MIDDLEWARE
 app.use(express.urlencoded({ extended: false }));
+
+app.use((req, res, next) => {
+  fs.appendFile(
+    "log.txt",
+    ` Time : ${Date.now()},  Method : ${req.method}, Path : ${req.path}  \n`,
+    (error, data) => {
+      next();
+    }
+  );
+  next();
+});
+
+app.use((req, res, next) => {
+  console.log("Middleware Response (1)");
+  req.myName = "Jahid";
+  next(); //Passing to what next on Server
+});
+app.use((req, res, next) => {
+  console.log("Middleware Response  (2)");
+  next(); //Passing to what next on Server
+});
+//--------------------------------------------------  SERVER
+
 app.get("/api/users", (req, res) => {
+  console.log("Request from (1) middleware=> " + req.myName);
   res.json(userData);
 });
 

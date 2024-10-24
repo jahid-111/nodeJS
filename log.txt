@@ -1,0 +1,11 @@
+ Time : 1729779151093,  Method : GET, Path : /api/users 
+ Time : 1729779151781,  Method : GET, Path : /api/users 
+ Time : 1729779152231,  Method : GET, Path : /api/users 
+ Time : 1729779173356,  Method : GET, Path : /api/userS/2 
+ Time : 1729779208972,  Method : DELETE, Path : /api/users/102 
+ Time : 1729779235930,  Method : DELETE, Path : /api/users/102 
+ Time : 1729779245036,  Method : DELETE, Path : /api/users/244 
+ Time : 1729779304036,  Method : PATCH, Path : /api/users/244 
+ Time : 1729779307071,  Method : HEAD, Path : /api/users/244 
+ Time : 1729779648212,  Method : GET, Path : /api/userS/2  
+ Time : 1729779650509,  Method : GET, Path : /api/userS/2  
